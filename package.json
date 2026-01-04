@@ -5,15 +5,30 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "eslint ."
   },
   "dependencies": {
-    "next": "16.0.8",
-    "react": "19.2.1",
-    "react-dom": "19.2.1"
+    "@heroicons/react": "^2.2.0",
+    "@vis.gl/react-google-maps": "^1.7.1",
+    "ag-grid-community": "^35.0.0",
+    "ag-grid-react": "^35.0.0",
+    "firebase": "^12.7.0",
+    "firebase-admin": "^13.6.0",
+    "leaflet": "^1.9.4",
+    "lodash": "^4.17.21",
+    "lucide-react": "^0.562.0",
+    "next": "^14.2.35",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-leaflet": "^4.2.1",
+    "recharts": "^3.6.0"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4"
+    "autoprefixer": "^10.4.23",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "14.2.3",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.19"
   }
 }
